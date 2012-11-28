@@ -1,0 +1,67 @@
+#keyboard{
+    background-color: #C0C0C0;
+	border: 1px gray solid;
+	width: 518px;
+    height: 210px;
+}
+#keyboard .row div{
+    background-color: white;
+    border: 1px gray solid;
+    width: 30px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+#keyboard .row .func_button{
+    width: 44px;
+}
+
+#keyboard .row .shift_button{
+    width: 73px;    
+}
+
+#keyboard .row .alt_button{
+	width: 78px;  
+}
+
+#keyboard .row .space_button{
+	width: 344px;      
+}
+
+#keyboard .row .free_space{
+	background-color: #C0C0C0;
+	width: 46px;   
+	height: 30px;
+	border: none;
+}
+
+#keyboard .row div:hover{
+    color: #fff;
+    background-color: #ffaaff;
+    cursor: pointer;
+}
+
+#keyboard .row{
+    clear: both;
+}
+
+#keyboard .row .pressed{
+   background-color: #aaaaaa;
+}
+
+#keyboard .close_button {
+    width: 16px;
+    height: 16px;
+    //background-color: #ffffff;
+    margin: 4px;
+    border: solid gray 1px;
+    text-align:center;
+    vertical-align:center;
+    font-weight: bold;
+    //font-size: 18px;    
+    float: right;
+}
+

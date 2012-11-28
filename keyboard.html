@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="keyboard.css" />
+</head>
+<body>
+    <div>
+        <textarea rows="10" cols="62" name="text" id="text"></textarea>
+    </div>
+    <div id="keyboard">
+       <div class="close_button">X</div>
+       <div class="row">
+		    <div class = "digit_button">`</div>
+            <div class = "digit_button">1</div>
+            <div class = "digit_button">2</div>
+            <div class = "digit_button">3</div>
+            <div class = "digit_button">4</div>
+            <div class = "digit_button">5</div>
+            <div class = "digit_button">6</div>
+            <div class = "digit_button">7</div>
+            <div class = "digit_button">8</div>
+            <div class = "digit_button">9</div>
+            <div class = "digit_button">0</div>
+            <div class = "digit_button">-</div>
+            <div class = "digit_button">=</div>
+            <div class="func_button" id="bs">BS</div>
+        </div>
+        <div class="row">
+		    <div class = "free_space"></div>
+            <div class = "simple_button">q</div>
+            <div class = "simple_button">w</div>
+            <div class = "simple_button">e</div>
+            <div class = "simple_button">r</div>
+            <div class = "simple_button">t</div>
+            <div class = "simple_button">y</div>
+            <div class = "simple_button">u</div>
+            <div class = "simple_button">i</div>
+            <div class = "simple_button">o</div>
+            <div class = "simple_button">p</div>
+            <div class = "simple_button">[</div>
+            <div class = "simple_button">]</div>
+            <div class = "simple_button">\</div>
+        </div>
+        <div class="row">
+		    <div class="func_button" id="caps">Caps</div>     
+            <div class = "simple_button">a</div>
+            <div class = "simple_button">s</div>
+            <div class = "simple_button">d</div>
+            <div class = "simple_button">f</div>
+            <div class = "simple_button">g</div>
+            <div class = "simple_button">h</div>
+            <div class = "simple_button">j</div>
+            <div class = "simple_button">k</div>
+            <div class = "simple_button">l</div>
+            <div class = "simple_button">;</div>
+            <div class = "simple_button">'</div>      
+        </div>
+        <div class="row">
+            <div class = "shift_button">Shift</div>  
+			<div class = "simple_button">z</div>
+            <div class = "simple_button">x</div>
+            <div class = "simple_button">c</div>
+            <div class = "simple_button">v</div>
+            <div class = "simple_button">b</div>
+            <div class = "simple_button">n</div>
+            <div class = "simple_button">m</div>
+            <div class = "simple_button">,</div>
+            <div class = "simple_button">.</div>
+            <div class = "simple_button">/</div>                     
+            <div class = "shift_button">Shift</div>            
+        </div>
+		<div class="row">
+            <div class = "alt_button">Alt + Ctrl</div>  
+			<div class="space_button"></div>
+            <div class = "alt_button">Alt + Ctrl</div>            
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="keyboard.js" type="text/javascript"></script>    
+</body>
+</html>
